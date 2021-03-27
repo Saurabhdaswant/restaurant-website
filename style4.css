@@ -293,14 +293,13 @@ margin: 3px 0 10px 0;
     align-items: center;
 }
 .copyright .social-links a img{
-   
     padding: 0;
     margin: 0;
 }
 
 /* footer starts here */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width:480px) {
 
     .container{
         width:auto;
@@ -376,12 +375,23 @@ margin: 3px 0 10px 0;
         font-size: 2.5rem;
     }
 
+
+    .links{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .links a{
+        margin-left: 0.8rem;
+    }
+
     .images{
         width:auto;
         display: flex;
         flex-direction:column;
         flex-wrap:nowrap;
         margin-bottom: 3rem;
+        align-items: center;
     }
 
     .images img{
@@ -455,7 +465,5 @@ margin: 3px 0 10px 0;
 .copyright{
     font-size: 15px;
 }
-
 /* footer starts here */
-
 }
